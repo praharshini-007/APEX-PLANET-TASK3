@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #ffffff;
+  color: #004d40;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #004d40;
+  margin-bottom: 40px;
+}
+
+.card {
+  background: #e0f7fa;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 16px;
+  box-shadow: 0 6px 15px rgba(0, 180, 216, 0.2);
+}
+
+#quiz-box, #api-section {
+  margin-top: 10px;
+}
+
+#options button {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  background: #004d40;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#nextBtn, #getWeather {
+  margin-top: 15px;
+  background-color: #006064;
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+input#cityInput {
+  padding: 10px;
+  width: 60%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+#weatherOutput {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  #cityInput {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advanced JS and CSS</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome</h1>
+
+    <section class="card">
+      <h2>Quiz and weather API -TASK03 Advanced JS and CSS</h2>
+      <p>This webpage features a quiz and a weather API integration.</p>
+    </section>
+
+    <section class="card" id="quiz-section">
+      <h2>Quiz Time!</h2>
+      <div id="quiz-box">
+        <p id="question"></p>
+        <div id="options"></div>
+        <button id="nextBtn">Next</button>
+        <p id="score"></p>
+      </div>
+    </section>
+
+    <section class="card" id="api-section">
+      <h2>Weather API</h2>
+      <input type="text" id="cityInput" placeholder="Enter city name" />
+      <button id="getWeather">Get Weather</button>
+      <div id="weatherOutput"></div>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
